@@ -1,0 +1,24 @@
+﻿生成启动时间为 2014/4/8 15:19:22。
+     1>项目“E:\project\tools\MpqPacker\MpqPack\MpqPack.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../mpq /I../mpq/pthread /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MpqPack.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../mpq /I../mpq/pthread /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt MpqPack.cpp MpqPackDlg.cpp
+         MpqPackDlg.cpp
+         MpqPack.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MpqPack.res" MpqPack.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\tools\MpqPacker\Debug\MpqPack.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug mpq.lib pthreadVCE2.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\project\tools\MpqPacker\Debug\MpqPack.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\tools\MpqPacker\Debug\MpqPack.lib" /MACHINE:X86 /SAFESEH Debug\MpqPack.res
+         Debug\MpqPack.obj
+         Debug\MpqPackDlg.obj
+         Debug\stdafx.obj
+         E:\project\tools\MpqPacker\Debug\Mpq.lib
+     1>MpqPack.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         MpqPack.vcxproj -> E:\project\tools\MpqPacker\Debug\MpqPack.exe
+     1>已完成生成项目“E:\project\tools\MpqPacker\MpqPack\MpqPack.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.83

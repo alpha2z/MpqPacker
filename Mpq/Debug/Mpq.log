@@ -1,0 +1,59 @@
+﻿生成启动时间为 2014/4/8 15:19:18。
+     1>项目“E:\project\tools\MpqPacker\Mpq\Mpq.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./pthread /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt hashCode.cpp md5Code.cpp MPQDiffer.cpp MPQPackage.cpp MPQPacker.cpp MPQPatcher.cpp RunnableAsync.cpp
+         RunnableAsync.cpp
+         MPQPatcher.cpp
+         MPQPacker.cpp
+         MPQPackage.cpp
+         MPQDiffer.cpp
+         md5Code.cpp
+     1>e:\project\tools\mpqpacker\mpq\md5code.cpp(240): warning C4244: “参数”: 从“std::streamsize”转换到“size_t”，可能丢失数据
+         hashCode.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./pthread /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt zlib\adler32.c zlib\compress.c zlib\crc32.c zlib\deflate.c zlib\gzclose.c zlib\gzlib.c zlib\gzread.c zlib\gzwrite.c zlib\infback.c zlib\inffast.c zlib\inflate.c zlib\inftrees.c zlib\trees.c zlib\uncompr.c zlib\zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+         gzread.c
+         gzlib.c
+         gzclose.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\project\tools\MpqPacker\Debug\Mpq.lib" /NOLOGO Debug\hashCode.obj
+         Debug\md5Code.obj
+         Debug\MPQDiffer.obj
+         Debug\MPQPackage.obj
+         Debug\MPQPacker.obj
+         Debug\MPQPatcher.obj
+         Debug\RunnableAsync.obj
+         Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         Mpq.vcxproj -> E:\project\tools\MpqPacker\Debug\Mpq.lib
+     1>已完成生成项目“E:\project\tools\MpqPacker\Mpq\Mpq.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.94

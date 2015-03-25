@@ -1,0 +1,20 @@
+﻿生成启动时间为 2014/4/8 15:19:32。
+     1>项目“E:\project\tools\MpqPacker\GamePacker\GamePacker.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../Mpq/ /I../Mpq/pthread/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\project\tools\mpqpacker\gamepacker\main.cpp(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>e:\project\tools\mpqpacker\gamepacker\main.cpp(27): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : 参见“getch”的声明
+     1>e:\project\tools\mpqpacker\gamepacker\main.cpp(176): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : 参见“getch”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\tools\MpqPacker\Debug\GamePacker.exe" /INCREMENTAL /NOLOGO /LIBPATH:../debug mpq.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\tools\MpqPacker\Debug\GamePacker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\tools\MpqPacker\Debug\GamePacker.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+     1>main.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         GamePacker.vcxproj -> E:\project\tools\MpqPacker\Debug\GamePacker.exe
+     1>已完成生成项目“E:\project\tools\MpqPacker\GamePacker\GamePacker.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.49
